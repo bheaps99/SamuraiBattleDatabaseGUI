@@ -1,0 +1,29 @@
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\bin\Debug\Repository2.dll
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\bin\Debug\Repository2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\bin\Debug\DomainClasses.dll
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\obj\Debug\Repository2.csprojAssemblyReference.cache
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\obj\Debug\Repository2.csproj.CoreCompileInputs.cache
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\obj\Debug\Repository2.csproj.CopyComplete
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\obj\Debug\Repository2.dll
+C:\NET\class 11\Samurai\SamuraiProject\Repository2\obj\Debug\Repository2.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\bin\Debug\Repository2.dll.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\bin\Debug\Repository2.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\bin\Debug\Repository2.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\bin\Debug\DomainClasses.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\bin\Debug\DomainClasses.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\obj\Debug\Repository2.csprojAssemblyReference.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\obj\Debug\Repository2.csproj.CoreCompileInputs.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\obj\Debug\Repository2.csproj.CopyComplete
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\obj\Debug\Repository2.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\Repository2\obj\Debug\Repository2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\bin\Debug\Repository2.dll.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\bin\Debug\Repository2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\bin\Debug\Repository2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\bin\Debug\DomainClasses.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\obj\Debug\Repository2.csprojAssemblyReference.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\obj\Debug\Repository2.csproj.CoreCompileInputs.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\obj\Debug\Repository2.csproj.CopyComplete
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\obj\Debug\Repository2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\Repository2\obj\Debug\Repository2.pdb

@@ -1,0 +1,22 @@
+C:\NET\class 11\Samurai\SamuraiProject\DomainClasses\obj\Debug\DomainClasses.csproj.CoreCompileInputs.cache
+C:\NET\class 11\Samurai\SamuraiProject\DomainClasses\bin\Debug\DomainClasses.dll
+C:\NET\class 11\Samurai\SamuraiProject\DomainClasses\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\Samurai\SamuraiProject\DomainClasses\obj\Debug\DomainClasses.dll
+C:\NET\class 11\Samurai\SamuraiProject\DomainClasses\obj\Debug\DomainClasses.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\DomainClasses\bin\Debug\DomainClasses.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\DomainClasses\bin\Debug\DomainClasses.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.csprojAssemblyReference.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.csproj.CoreCompileInputs.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\DomainClasses\bin\Debug\DomainClasses.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\DomainClasses\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.csproj.CoreCompileInputs.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\DomainClasses\obj\Debug\DomainClasses.pdb
+C:\NET\project\DomainClasses\bin\Debug\DomainClasses.dll
+C:\NET\project\DomainClasses\bin\Debug\DomainClasses.pdb
+C:\NET\project\DomainClasses\obj\Debug\DomainClasses.csprojAssemblyReference.cache
+C:\NET\project\DomainClasses\obj\Debug\DomainClasses.csproj.CoreCompileInputs.cache
+C:\NET\project\DomainClasses\obj\Debug\DomainClasses.dll
+C:\NET\project\DomainClasses\obj\Debug\DomainClasses.pdb

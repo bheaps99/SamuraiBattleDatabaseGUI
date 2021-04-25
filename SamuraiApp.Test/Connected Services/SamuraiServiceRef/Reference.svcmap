@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="522f2720-4002-4cd4-95ba-a743816ac3ea" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="e9b61931-2a57-4def-95ad-2fdc3afb106d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="fbf3e878-c1f4-4466-90d8-eba0f7b21571" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="c9db8cec-2361-4b6b-a12a-b1bb44bca5fc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/mex" />
+    <MetadataFile FileName="SamuraiApp.Service.xsd" MetadataType="Schema" ID="02acff74-7323-4323-a071-e0da97515a78" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SamuraiApp.Service" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SamuraiApp.Service" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfSamuraiData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SamuraiData" nillable="true" type="tns:SamuraiData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSamuraiData" nillable="true" type="tns:ArrayOfSamuraiData" />
+  <xs:complexType name="SamuraiData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Picture" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SamuraiId" type="xs:int" />
+      <xs:element minOccurs="0" name="Town" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SamuraiData" nillable="true" type="tns:SamuraiData" />
+  <xs:complexType name="ArrayOfBattleData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BattleData" nillable="true" type="tns:BattleData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBattleData" nillable="true" type="tns:ArrayOfBattleData" />
+  <xs:complexType name="BattleData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BattleId" type="xs:int" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BattleData" nillable="true" type="tns:BattleData" />
+</xs:schema>

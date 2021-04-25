@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BattleService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/SamuraiApp.Service" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBattleService_GetAllBattles_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBattles" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_GetAllBattles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllBattlesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_GetBattleById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBattleById" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_GetBattleById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBattleByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_UpdateBattle_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBattle" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_UpdateBattle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBattleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_GetSamuraisInBattle_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSamuraisInBattle" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_GetSamuraisInBattle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSamuraisInBattleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_AddSamuraiToBattle_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddSamuraiToBattle" />
+  </wsdl:message>
+  <wsdl:message name="IBattleService_AddSamuraiToBattle_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddSamuraiToBattleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBattleService">
+    <wsdl:operation name="GetAllBattles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBattleService/GetAllBattles" message="tns:IBattleService_GetAllBattles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBattleService/GetAllBattlesResponse" message="tns:IBattleService_GetAllBattles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBattleById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBattleService/GetBattleById" message="tns:IBattleService_GetBattleById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBattleService/GetBattleByIdResponse" message="tns:IBattleService_GetBattleById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBattle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBattleService/UpdateBattle" message="tns:IBattleService_UpdateBattle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBattleService/UpdateBattleResponse" message="tns:IBattleService_UpdateBattle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSamuraisInBattle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBattleService/GetSamuraisInBattle" message="tns:IBattleService_GetSamuraisInBattle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBattleService/GetSamuraisInBattleResponse" message="tns:IBattleService_GetSamuraisInBattle_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSamuraiToBattle">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBattleService/AddSamuraiToBattle" message="tns:IBattleService_AddSamuraiToBattle_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBattleService/AddSamuraiToBattleResponse" message="tns:IBattleService_AddSamuraiToBattle_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBattleService" type="tns:IBattleService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllBattles">
+      <soap:operation soapAction="http://tempuri.org/IBattleService/GetAllBattles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBattleById">
+      <soap:operation soapAction="http://tempuri.org/IBattleService/GetBattleById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBattle">
+      <soap:operation soapAction="http://tempuri.org/IBattleService/UpdateBattle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSamuraisInBattle">
+      <soap:operation soapAction="http://tempuri.org/IBattleService/GetSamuraisInBattle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSamuraiToBattle">
+      <soap:operation soapAction="http://tempuri.org/IBattleService/AddSamuraiToBattle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BattleService">
+    <wsdl:port name="BasicHttpBinding_IBattleService" binding="tns:BasicHttpBinding_IBattleService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/BattleService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

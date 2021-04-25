@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiBattleView", "SamuraiBattleView\SamuraiBattleView.csproj", "{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainClasses", "DomainClasses\DomainClasses.csproj", "{07609E74-3DEC-4EF1-93B9-E24E5A8482B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel2\ViewModel.csproj", "{0BE49ADC-9A77-4AE1-8B40-92D83D73102C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository2\Repository.csproj", "{03EFA1E6-7ACD-4E77-BE60-5442879B3FB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2B323B0-F917-4B37-8228-0E28EE9EF386} = {D2B323B0-F917-4B37-8228-0E28EE9EF386}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Service", "SamuraiApp.Service\SamuraiApp.Service.csproj", "{D2B323B0-F917-4B37-8228-0E28EE9EF386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Test2", "SamuraiApp.Test2\SamuraiApp.Test2.csproj", "{CBB64C8C-9E10-4F7C-8B40-B1CE196DBEDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC28DF4E-1DD1-45E0-A317-DEEDF3875D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07609E74-3DEC-4EF1-93B9-E24E5A8482B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07609E74-3DEC-4EF1-93B9-E24E5A8482B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07609E74-3DEC-4EF1-93B9-E24E5A8482B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07609E74-3DEC-4EF1-93B9-E24E5A8482B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE49ADC-9A77-4AE1-8B40-92D83D73102C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE49ADC-9A77-4AE1-8B40-92D83D73102C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE49ADC-9A77-4AE1-8B40-92D83D73102C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE49ADC-9A77-4AE1-8B40-92D83D73102C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EFA1E6-7ACD-4E77-BE60-5442879B3FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EFA1E6-7ACD-4E77-BE60-5442879B3FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EFA1E6-7ACD-4E77-BE60-5442879B3FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EFA1E6-7ACD-4E77-BE60-5442879B3FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B323B0-F917-4B37-8228-0E28EE9EF386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B323B0-F917-4B37-8228-0E28EE9EF386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B323B0-F917-4B37-8228-0E28EE9EF386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B323B0-F917-4B37-8228-0E28EE9EF386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB64C8C-9E10-4F7C-8B40-B1CE196DBEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB64C8C-9E10-4F7C-8B40-B1CE196DBEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB64C8C-9E10-4F7C-8B40-B1CE196DBEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB64C8C-9E10-4F7C-8B40-B1CE196DBEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F3DB0E-43B4-432C-A5FF-A0248F324458}
+	EndGlobalSection
+EndGlobal

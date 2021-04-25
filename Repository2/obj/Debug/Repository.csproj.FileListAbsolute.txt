@@ -1,0 +1,10 @@
+C:\NET\project\Repository2\bin\Debug\Repository2.dll.config
+C:\NET\project\Repository2\bin\Debug\Repository2.dll
+C:\NET\project\Repository2\bin\Debug\Repository2.pdb
+C:\NET\project\Repository2\bin\Debug\DomainClasses.dll
+C:\NET\project\Repository2\bin\Debug\DomainClasses.pdb
+C:\NET\project\Repository2\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\NET\project\Repository2\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\NET\project\Repository2\obj\Debug\Repository.csproj.CopyComplete
+C:\NET\project\Repository2\obj\Debug\Repository2.dll
+C:\NET\project\Repository2\obj\Debug\Repository2.pdb

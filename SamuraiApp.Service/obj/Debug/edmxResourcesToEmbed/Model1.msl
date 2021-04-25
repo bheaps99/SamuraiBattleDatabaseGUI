@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SamuraiAppModelStoreContainer" CdmEntityContainer="SamuraiAppEntities">
+    <EntitySetMapping Name="C__EFMigrationsHistory">
+      <EntityTypeMapping TypeName="SamuraiAppModel.C__EFMigrationsHistory">
+        <MappingFragment StoreEntitySet="__EFMigrationsHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BattleEntities">
+      <EntityTypeMapping TypeName="SamuraiAppModel.BattleEntity">
+        <MappingFragment StoreEntitySet="Battles">
+          <ScalarProperty Name="BattleId" ColumnName="BattleId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BattleSamuraiEntities">
+      <EntityTypeMapping TypeName="SamuraiAppModel.BattleSamuraiEntity">
+        <MappingFragment StoreEntitySet="BattleSamurais">
+          <ScalarProperty Name="BattleSamuraiId" ColumnName="BattleSamuraiId" />
+          <ScalarProperty Name="SamuraiId" ColumnName="SamuraiId" />
+          <ScalarProperty Name="BattleId" ColumnName="BattleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SamuraiEntities">
+      <EntityTypeMapping TypeName="SamuraiAppModel.SamuraiEntity">
+        <MappingFragment StoreEntitySet="Samurais">
+          <ScalarProperty Name="SamuraiId" ColumnName="SamuraiId" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Town" ColumnName="Town" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,39 @@
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.exe.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.exe
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\DomainClasses.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\Repository2.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\DomainClasses.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\Repository2.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\Repository2.dll.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csprojAssemblyReference.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csproj.CoreCompileInputs.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csproj.CopyComplete
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.exe
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.exe.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.exe
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\DomainClasses.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\Repository2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\Repository2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\bin\Debug\Repository2.dll.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csprojAssemblyReference.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csproj.CoreCompileInputs.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csproj.CopyComplete
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.exe
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.pdb
+C:\NET\project\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.exe.config
+C:\NET\project\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.exe
+C:\NET\project\SamuraiApp.Test2\bin\Debug\SamuraiApp.Test2.pdb
+C:\NET\project\SamuraiApp.Test2\bin\Debug\DomainClasses.dll
+C:\NET\project\SamuraiApp.Test2\bin\Debug\Repository2.dll
+C:\NET\project\SamuraiApp.Test2\bin\Debug\DomainClasses.pdb
+C:\NET\project\SamuraiApp.Test2\bin\Debug\Repository2.pdb
+C:\NET\project\SamuraiApp.Test2\bin\Debug\Repository2.dll.config
+C:\NET\project\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csprojAssemblyReference.cache
+C:\NET\project\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csproj.CoreCompileInputs.cache
+C:\NET\project\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.csproj.CopyComplete
+C:\NET\project\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.exe
+C:\NET\project\SamuraiApp.Test2\obj\Debug\SamuraiApp.Test2.pdb

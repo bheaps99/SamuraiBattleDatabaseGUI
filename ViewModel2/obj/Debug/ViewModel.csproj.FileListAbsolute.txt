@@ -1,0 +1,24 @@
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\ViewModel2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\ViewModel2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\DomainClasses.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\Repository2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\Repository2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\bin\Debug\Repository2.dll.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\obj\Debug\ViewModel.csproj.CopyComplete
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\obj\Debug\ViewModel2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\ViewModel2\obj\Debug\ViewModel2.pdb
+C:\NET\project\ViewModel2\bin\Debug\ViewModel2.dll
+C:\NET\project\ViewModel2\bin\Debug\ViewModel2.pdb
+C:\NET\project\ViewModel2\bin\Debug\DomainClasses.dll
+C:\NET\project\ViewModel2\bin\Debug\Repository2.dll
+C:\NET\project\ViewModel2\bin\Debug\DomainClasses.pdb
+C:\NET\project\ViewModel2\bin\Debug\Repository2.pdb
+C:\NET\project\ViewModel2\bin\Debug\Repository2.dll.config
+C:\NET\project\ViewModel2\obj\Debug\ViewModel.csprojAssemblyReference.cache
+C:\NET\project\ViewModel2\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\NET\project\ViewModel2\obj\Debug\ViewModel.csproj.CopyComplete
+C:\NET\project\ViewModel2\obj\Debug\ViewModel2.dll
+C:\NET\project\ViewModel2\obj\Debug\ViewModel2.pdb

@@ -1,0 +1,53 @@
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll.config
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.pdb
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.Domain.dll
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.RepositorySQL.dll
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\EntityFramework.dll
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.Domain.pdb
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.RepositorySQL.pdb
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\SamuraiApp.RepositorySQL.dll.config
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\EntityFramework.xml
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csprojAssemblyReference.cache
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CopyComplete
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.dll
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.pdb
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicoe\Documents\Projects\SamuraiApp\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csprojAssemblyReference.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CopyComplete
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CoreCompileInputs.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CopyComplete
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csprojAssemblyReference.cache
+C:\NET\project\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll.config
+C:\NET\project\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.dll
+C:\NET\project\SamuraiApp.Service\bin\Debug\SamuraiApp.Service.pdb
+C:\NET\project\SamuraiApp.Service\bin\Debug\EntityFramework.dll
+C:\NET\project\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\NET\project\SamuraiApp.Service\bin\Debug\EntityFramework.xml
+C:\NET\project\SamuraiApp.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\NET\project\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csprojAssemblyReference.cache
+C:\NET\project\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CoreCompileInputs.cache
+C:\NET\project\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.csproj.CopyComplete
+C:\NET\project\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.dll
+C:\NET\project\SamuraiApp.Service\obj\Debug\SamuraiApp.Service.pdb

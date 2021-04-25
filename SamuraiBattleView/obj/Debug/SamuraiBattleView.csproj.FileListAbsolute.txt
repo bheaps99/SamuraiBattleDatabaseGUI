@@ -1,0 +1,164 @@
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe.config
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\MainWindow.g.cs
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\App.g.cs
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.lref
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\App.baml
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\MainWindow.baml
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.g.resources
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.Properties.Resources.resources
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.GenerateResource.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CoreCompileInputs.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\DomainClasses.dll
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\Repository2.dll
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\ViewModel2.dll
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\Repository2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\bin\Debug\ViewModel2.pdb
+C:\NET\class 11\Samurai\SamuraiProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CopyComplete
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\CsvHelper.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\DomainClasses.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Repository2.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiApp.Service.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Buffers.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Memory.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\ViewModel2.dll
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\DomainClasses.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Repository2.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Repository2.dll.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiApp.Service.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiApp.Service.dll.config
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\ViewModel2.pdb
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\CsvHelper.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Buffers.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Memory.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\MainWindow.g.cs
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\App.g.cs
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.lref
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\App.baml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\MainWindow.baml
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.g.resources
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.Properties.Resources.resources
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.GenerateResource.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CoreCompileInputs.cache
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CopyComplete
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
+C:\Users\nicoe\source\repos\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiBattleView.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\CsvHelper.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\DomainClasses.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.SqlServer.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Repository2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiApp.Service.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Buffers.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Memory.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Numerics.Vectors.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\ViewModel2.dll
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\DomainClasses.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Repository2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Repository2.dll.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiApp.Service.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\SamuraiApp.Service.dll.config
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\ViewModel2.pdb
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\CsvHelper.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\EntityFramework.SqlServer.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Buffers.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Memory.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Numerics.Vectors.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\MainWindow.g.cs
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\App.g.cs
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.lref
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\App.baml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\MainWindow.baml
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.g.resources
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.Properties.Resources.resources
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.GenerateResource.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CoreCompileInputs.cache
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CopyComplete
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
+C:\NET\class 11\hopeful\COMP3618FinalProject\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb
+C:\NET\project\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe.config
+C:\NET\project\SamuraiBattleView\bin\Debug\SamuraiBattleView.exe
+C:\NET\project\SamuraiBattleView\bin\Debug\SamuraiBattleView.pdb
+C:\NET\project\SamuraiBattleView\bin\Debug\CsvHelper.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\DomainClasses.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\EntityFramework.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\EntityFramework.SqlServer.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\Repository2.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\SamuraiApp.Service.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Buffers.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Memory.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Numerics.Vectors.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\ViewModel2.dll
+C:\NET\project\SamuraiBattleView\bin\Debug\DomainClasses.pdb
+C:\NET\project\SamuraiBattleView\bin\Debug\Repository2.pdb
+C:\NET\project\SamuraiBattleView\bin\Debug\Repository2.dll.config
+C:\NET\project\SamuraiBattleView\bin\Debug\SamuraiApp.Service.pdb
+C:\NET\project\SamuraiBattleView\bin\Debug\SamuraiApp.Service.dll.config
+C:\NET\project\SamuraiBattleView\bin\Debug\ViewModel2.pdb
+C:\NET\project\SamuraiBattleView\bin\Debug\CsvHelper.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\EntityFramework.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\EntityFramework.SqlServer.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Buffers.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Memory.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Numerics.Vectors.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\NET\project\SamuraiBattleView\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.csprojAssemblyReference.cache
+C:\NET\project\SamuraiBattleView\obj\Debug\MainWindow.g.cs
+C:\NET\project\SamuraiBattleView\obj\Debug\App.g.cs
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.cache
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView_MarkupCompile.lref
+C:\NET\project\SamuraiBattleView\obj\Debug\App.baml
+C:\NET\project\SamuraiBattleView\obj\Debug\MainWindow.baml
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.g.resources
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.Properties.Resources.resources
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.GenerateResource.cache
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CoreCompileInputs.cache
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.csproj.CopyComplete
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.exe
+C:\NET\project\SamuraiBattleView\obj\Debug\SamuraiBattleView.pdb

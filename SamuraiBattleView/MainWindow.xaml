@@ -1,0 +1,130 @@
+﻿<Window x:Class="SamuraiBattleView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SamuraiBattleView"
+        mc:Ignorable="d"  ResizeMode="NoResize" 
+        Title="COMP 3618 Project" Height="450" Width="800" Background="{StaticResource ApplicationBackground}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.2*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1.2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource ApplicationTitle}" Text="Samurai"/>
+        
+        <TextBlock Grid.Row="0" Grid.Column="2" Style="{StaticResource ApplicationTitle}" Text="Battles"/>
+        
+        <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1">
+            <Button x:Name="FetchSamuraiDataButton"  Margin="5"
+                            Content="Fetch Data"
+                            Command="{Binding RefreshSamuraiCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+            
+            <Button x:Name="ClearSamuraiDataButton"  Margin="5"
+                            Content="Clear Data"
+                            Command="{Binding ClearSamuraiCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+
+            
+        </StackPanel>
+
+        <Button Grid.Row ="1" Grid.Column="1" x:Name="UpdateSamuraiButton"  Margin="5"
+                            Content="Update" Width="50" HorizontalAlignment="Left"
+                            Command="{Binding UpdateSamuraiCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="0" Grid.Row="2">
+            <ListBox Style="{StaticResource ListBoxStyle}" ItemsSource="{Binding Warriors}" 
+                     SelectedItem="{Binding samurai}" DisplayMemberPath="Name">
+
+            </ListBox>
+            </ScrollViewer>
+
+        
+
+        <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
+            <Button x:Name="FetchBattleDataButton"  Margin="5"
+                            Content="Fetch Data"
+                            Command="{Binding RefreshBattleCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+
+            <Button x:Name="ClearBattleDataButton"  Margin="5"
+                            Content="Clear Data"
+                            Command="{Binding ClearBattleCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+
+            
+        </StackPanel>
+
+        <Button x:Name="UpdateBattleButton"  Margin="5" Grid.Row ="1" Grid.Column="3" Width="50" HorizontalAlignment="Left"
+                            Content="Update"
+                            Command="{Binding UpdateBattleCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
+            <ListBox Style="{StaticResource ListBoxStyle}" ItemsSource="{Binding Contests}"
+                      SelectedItem="{Binding contest}" DisplayMemberPath="Name">
+
+            </ListBox>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal">
+            <TextBlock Style="{StaticResource CountStyle}" Text="{Binding Warriors.Count}" />
+            <TextBlock Style="{StaticResource CountStyle}" Text="Records" />
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="1">
+            <TextBlock Style="{StaticResource DisplayStyle}">Name:</TextBlock>
+            <TextBox x:Name="SamuraiName" Style="{StaticResource TextBoxAttribute}" Text="{Binding samurai.Name}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">Picture:</TextBlock>
+            <Image Source="{Binding samurai.Picture}" Width="50" Height="50" HorizontalAlignment="Left" Margin="5 0 0 0"/>
+            <TextBlock Style="{StaticResource DisplayStyle}" >Age:</TextBlock>
+            <TextBox x:Name="SamuraiAge" Style="{StaticResource TextBoxAttribute}" Text="{Binding samurai.Age}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">Town:</TextBlock>
+            <TextBox x:Name="SamuraiTown" Style="{StaticResource TextBoxAttribute}" Text="{Binding samurai.Town}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">Battle(s) Fought in:</TextBlock>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
+                <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ShortListBoxStyle}" Height="91" 
+                         ItemsSource="{Binding samurai.Battles}" DisplayMemberPath="Name" SelectedItem="{Binding contest}">
+                </ListBox>
+            </ScrollViewer>
+            <Button x:Name="AddSamuraiToBattleButton"  Margin="5"
+                            Content="Add Samurai to Battle" Width="140" HorizontalAlignment="Left"
+                            Command="{Binding AddSamuraiCommand}"
+                            Style="{StaticResource ButtonStyle}"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="3" >
+            <TextBlock Style="{StaticResource DisplayStyle}">Name:</TextBlock>
+            <TextBox x:Name="BattleName" Style="{StaticResource TextBoxAttribute}"  Text="{Binding contest.Name}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">Date:</TextBlock>
+            <TextBox x:Name="BattleDate" Style="{StaticResource TextBoxAttribute}"  Text="{Binding contest.Date}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">City:</TextBlock>
+            <TextBox x:Name="BattleCity" Style="{StaticResource TextBoxAttribute}"  Text="{Binding contest.City}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">Country:</TextBlock>
+            <TextBox x:Name="SamuraiCountry" Style="{StaticResource TextBoxAttribute}"  Text="{Binding contest.Country}"></TextBox>
+            <TextBlock Style="{StaticResource DisplayStyle}">Samurai Fighting:</TextBlock>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="2" Grid.Row="2">
+                <ListBox Grid.Column="2" Grid.Row="2" Style="{StaticResource ShortListBoxStyle}" Height="155"
+                         ItemsSource="{Binding contest.Samurais}" DisplayMemberPath="Name" SelectedItem="{Binding samurai}">
+                </ListBox>
+            </ScrollViewer>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal">
+            <TextBlock Style="{StaticResource CountStyle}" Text="{Binding Contests.Count}" />
+            <TextBlock Style="{StaticResource CountStyle}" Text="Records" />
+        </StackPanel>
+    </Grid>
+</Window>

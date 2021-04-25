@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SamuraiAppModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__EFMigrationsHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Battles">
+          <Key>
+            <PropertyRef Name="BattleId" />
+          </Key>
+          <Property Name="BattleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="date" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="City" Type="nvarchar(max)" />
+          <Property Name="Country" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="BattleSamurais">
+          <Key>
+            <PropertyRef Name="BattleSamuraiId" />
+          </Key>
+          <Property Name="BattleSamuraiId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SamuraiId" Type="int" Nullable="false" />
+          <Property Name="BattleId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Samurais">
+          <Key>
+            <PropertyRef Name="SamuraiId" />
+          </Key>
+          <Property Name="SamuraiId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Picture" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Age" Type="int" Nullable="false" />
+          <Property Name="Town" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_BattleSamurais_Battles_BattleId">
+          <End Role="Battles" Type="Self.Battles" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BattleSamurais" Type="Self.BattleSamurais" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Battles">
+              <PropertyRef Name="BattleId" />
+            </Principal>
+            <Dependent Role="BattleSamurais">
+              <PropertyRef Name="BattleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BattleSamurais_Samurais_SamuraiId">
+          <End Role="Samurais" Type="Self.Samurais" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BattleSamurais" Type="Self.BattleSamurais" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Samurais">
+              <PropertyRef Name="SamuraiId" />
+            </Principal>
+            <Dependent Role="BattleSamurais">
+              <PropertyRef Name="SamuraiId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SamuraiAppModelStoreContainer">
+          <EntitySet Name="__EFMigrationsHistory" EntityType="Self.__EFMigrationsHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Battles" EntityType="Self.Battles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BattleSamurais" EntityType="Self.BattleSamurais" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Samurais" EntityType="Self.Samurais" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_BattleSamurais_Battles_BattleId" Association="Self.FK_BattleSamurais_Battles_BattleId">
+            <End Role="Battles" EntitySet="Battles" />
+            <End Role="BattleSamurais" EntitySet="BattleSamurais" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BattleSamurais_Samurais_SamuraiId" Association="Self.FK_BattleSamurais_Samurais_SamuraiId">
+            <End Role="Samurais" EntitySet="Samurais" />
+            <End Role="BattleSamurais" EntitySet="BattleSamurais" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SamuraiAppModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C__EFMigrationsHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BattleEntity">
+          <Key>
+            <PropertyRef Name="BattleId" />
+          </Key>
+          <Property Name="BattleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Country" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="BattleSamurais" Relationship="Self.FK_BattleSamurais_Battles_BattleId" FromRole="Battles" ToRole="BattleSamurais" />
+        </EntityType>
+        <EntityType Name="BattleSamuraiEntity">
+          <Key>
+            <PropertyRef Name="BattleSamuraiId" />
+          </Key>
+          <Property Name="BattleSamuraiId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SamuraiId" Type="Int32" Nullable="false" />
+          <Property Name="BattleId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Battle" Relationship="Self.FK_BattleSamurais_Battles_BattleId" FromRole="BattleSamurais" ToRole="Battles" />
+          <NavigationProperty Name="Samurai" Relationship="Self.FK_BattleSamurais_Samurais_SamuraiId" FromRole="BattleSamurais" ToRole="Samurais" />
+        </EntityType>
+        <EntityType Name="SamuraiEntity">
+          <Key>
+            <PropertyRef Name="SamuraiId" />
+          </Key>
+          <Property Name="SamuraiId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <Property Name="Town" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="BattleSamurais" Relationship="Self.FK_BattleSamurais_Samurais_SamuraiId" FromRole="Samurais" ToRole="BattleSamurais" />
+        </EntityType>
+        <Association Name="FK_BattleSamurais_Battles_BattleId">
+          <End Role="Battles" Type="SamuraiAppModel.BattleEntity" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BattleSamurais" Type="SamuraiAppModel.BattleSamuraiEntity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Battles">
+              <PropertyRef Name="BattleId" />
+            </Principal>
+            <Dependent Role="BattleSamurais">
+              <PropertyRef Name="BattleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BattleSamurais_Samurais_SamuraiId">
+          <End Role="Samurais" Type="SamuraiAppModel.SamuraiEntity" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="BattleSamurais" Type="SamuraiAppModel.BattleSamuraiEntity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Samurais">
+              <PropertyRef Name="SamuraiId" />
+            </Principal>
+            <Dependent Role="BattleSamurais">
+              <PropertyRef Name="SamuraiId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SamuraiAppEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__EFMigrationsHistory" EntityType="Self.C__EFMigrationsHistory" />
+          <EntitySet Name="BattleEntities" EntityType="SamuraiAppModel.BattleEntity" />
+          <EntitySet Name="BattleSamuraiEntities" EntityType="SamuraiAppModel.BattleSamuraiEntity" />
+          <EntitySet Name="SamuraiEntities" EntityType="SamuraiAppModel.SamuraiEntity" />
+          <AssociationSet Name="FK_BattleSamurais_Battles_BattleId" Association="Self.FK_BattleSamurais_Battles_BattleId">
+            <End Role="Battles" EntitySet="BattleEntities" />
+            <End Role="BattleSamurais" EntitySet="BattleSamuraiEntities" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BattleSamurais_Samurais_SamuraiId" Association="Self.FK_BattleSamurais_Samurais_SamuraiId">
+            <End Role="Samurais" EntitySet="SamuraiEntities" />
+            <End Role="BattleSamurais" EntitySet="BattleSamuraiEntities" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SamuraiAppModelStoreContainer" CdmEntityContainer="SamuraiAppEntities">
+          <EntitySetMapping Name="C__EFMigrationsHistory">
+            <EntityTypeMapping TypeName="SamuraiAppModel.C__EFMigrationsHistory">
+              <MappingFragment StoreEntitySet="__EFMigrationsHistory">
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BattleEntities">
+            <EntityTypeMapping TypeName="SamuraiAppModel.BattleEntity">
+              <MappingFragment StoreEntitySet="Battles">
+                <ScalarProperty Name="BattleId" ColumnName="BattleId" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BattleSamuraiEntities">
+            <EntityTypeMapping TypeName="SamuraiAppModel.BattleSamuraiEntity">
+              <MappingFragment StoreEntitySet="BattleSamurais">
+                <ScalarProperty Name="BattleSamuraiId" ColumnName="BattleSamuraiId" />
+                <ScalarProperty Name="SamuraiId" ColumnName="SamuraiId" />
+                <ScalarProperty Name="BattleId" ColumnName="BattleId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SamuraiEntities">
+            <EntityTypeMapping TypeName="SamuraiAppModel.SamuraiEntity">
+              <MappingFragment StoreEntitySet="Samurais">
+                <ScalarProperty Name="SamuraiId" ColumnName="SamuraiId" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Town" ColumnName="Town" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

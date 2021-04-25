@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SamuraiService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/SamuraiApp.Service" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISamuraiService_GetAllSamurais_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllSamurais" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_GetAllSamurais_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllSamuraisResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_GetSamuraiById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSamuraiById" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_GetSamuraiById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSamuraiByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_UpdateSamurai_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSamurai" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_UpdateSamurai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSamuraiResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_GetBattlesOfSamurai_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBattlesOfSamurai" />
+  </wsdl:message>
+  <wsdl:message name="ISamuraiService_GetBattlesOfSamurai_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBattlesOfSamuraiResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISamuraiService">
+    <wsdl:operation name="GetAllSamurais">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISamuraiService/GetAllSamurais" message="tns:ISamuraiService_GetAllSamurais_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISamuraiService/GetAllSamuraisResponse" message="tns:ISamuraiService_GetAllSamurais_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSamuraiById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISamuraiService/GetSamuraiById" message="tns:ISamuraiService_GetSamuraiById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISamuraiService/GetSamuraiByIdResponse" message="tns:ISamuraiService_GetSamuraiById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSamurai">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISamuraiService/UpdateSamurai" message="tns:ISamuraiService_UpdateSamurai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISamuraiService/UpdateSamuraiResponse" message="tns:ISamuraiService_UpdateSamurai_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBattlesOfSamurai">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISamuraiService/GetBattlesOfSamurai" message="tns:ISamuraiService_GetBattlesOfSamurai_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISamuraiService/GetBattlesOfSamuraiResponse" message="tns:ISamuraiService_GetBattlesOfSamurai_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISamuraiService" type="tns:ISamuraiService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllSamurais">
+      <soap:operation soapAction="http://tempuri.org/ISamuraiService/GetAllSamurais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSamuraiById">
+      <soap:operation soapAction="http://tempuri.org/ISamuraiService/GetSamuraiById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSamurai">
+      <soap:operation soapAction="http://tempuri.org/ISamuraiService/UpdateSamurai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBattlesOfSamurai">
+      <soap:operation soapAction="http://tempuri.org/ISamuraiService/GetBattlesOfSamurai" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SamuraiService">
+    <wsdl:port name="BasicHttpBinding_ISamuraiService" binding="tns:BasicHttpBinding_ISamuraiService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/SamuraiApp.Service/SamuraiService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
